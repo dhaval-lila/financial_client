@@ -1,22 +1,12 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
-import Icon from '@material-ui/core/Icon';
 import PropTypes from 'prop-types';
-import SaveIcon from '@material-ui/icons/Save';
-import classNames from 'classnames';
-import Fab from '@material-ui/core/Fab';
-import AddIcon from '@material-ui/icons/Add'
 import IconButton from '@material-ui/core/IconButton';
-import DeleteIcon from '@material-ui/icons/Delete';
-import CloudUploadIcon from '@material-ui/icons/CloudUpload';
-import TextField from '@material-ui/core/TextField'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
-// import Colors from 'material-ui/styles/colors';
-
+import logo from '../assets/logo.jpg'
 
 const styles = theme => ({
     button: {
@@ -39,7 +29,10 @@ class Navbar extends Component {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography class="ml-4" variant="h5" className={classes.title}>
+          <Typography class="ml-4 mt-2" variant="h4" className={classes.title}>
+            <img src={logo} style={{height:"80px",width:"160px"}}/>
+          </Typography>
+          <Typography class="ml-4" variant="h4" className={classes.title}>
             Home
           </Typography>
           <Typography class="ml-4" variant="h5" className={classes.title}>
