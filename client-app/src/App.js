@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './component/Navbar'
 import Sliders from './component/Sliders'
+import Services from './component/Services'
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <br>
       </br>
       <Sliders/>
+      <br></br>
+      <br></br>
+      <Services/>
     </div>
   );
 }
