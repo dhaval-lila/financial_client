@@ -7,6 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
 import logo from '../assets/logo.jpg'
+import { maxHeight } from '@material-ui/system';
 
 const styles = theme => ({
     button: {
@@ -29,8 +30,8 @@ class Navbar extends Component {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography class="ml-4 mt-2" variant="h4" className={classes.title}>
-            <img src={logo} style={{height:"80px",width:"160px"}}/>
+          <Typography class="" style={{ maxWidth : "10%", maxHeight : "30%"}} variant="h6" className={classes.title}>
+            <img src={logo} style={{height:"100%",width:"100%"}}/>
           </Typography>
           <Typography class="ml-4" variant="h4" className={classes.title}>
             Home
