@@ -12,7 +12,9 @@ function App() {
 
       
  <Sliders/>
+ <hr></hr>
  <Services/>
+ <hr></hr>
  <Footer/>
 
 

@@ -9,17 +9,20 @@ class Services extends Component {
     render() {
         return (
             <div>
+                <div>
+                    <h1 style={{padding : "2%"}}>Services</h1>
+                    
+                </div>
                 <div class="d-inline-flex justify-content-around flex-wrap" style={{width : "100%"}}>
                     <div>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img1} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Create more money</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            We started creating this page! You start investing. In both cases reward be great!
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Contact Us</Button>
                     </Card.Body>
                 </Card>
                 </div>
@@ -27,12 +30,11 @@ class Services extends Component {
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img2}/>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Invest in Stockmarket</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                        We invested our efforts here! You invest money. In both cases final product be huge!
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Contact Us</Button>
                     </Card.Body>
                 </Card>
                 </div>
@@ -40,12 +42,11 @@ class Services extends Component {
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img3} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Plan Wisely</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            We planned very carefully! You also plan wisely for your money! In both cases, We will achieve tremendeus success!
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Contact Us</Button>
                     </Card.Body>
                 </Card>
                 </div>
