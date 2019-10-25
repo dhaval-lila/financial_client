@@ -9,7 +9,7 @@ class Services extends Component {
     render() {
         return (
             <div>
-                <div class="d-inline-flex justify-content-around" style={{width : "100%"}}>
+                <div class="d-inline-flex justify-content-around flex-wrap" style={{width : "100%"}}>
                     <div>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img1} />
