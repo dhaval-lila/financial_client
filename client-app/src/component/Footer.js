@@ -48,7 +48,7 @@ class Footer extends Component{
                             </Row>
                     <br></br>
                 </Container>
-                @Developed By: Ravi Patel & Dhaval Lila
+                @Developed By: Ravi Patel &git Dhaval Lila
             </div>
         );
     }

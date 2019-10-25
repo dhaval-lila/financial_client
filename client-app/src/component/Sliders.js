@@ -29,8 +29,8 @@ class Sliders extends Component {
                         />
 
                         <Carousel.Caption>
-                            <h3 style={{color:"#060808"}}>Interested in Stockmarkets?</h3>
-                            <p style={{color:"#060808"}}>Connect with us and get the best benefits of stock markets</p>
+                            <h3 style={{color:"#060808"}}>Interested in Stockmarket?</h3>
+                            <p style={{color:"#060808"}}>Connect with us and get the best benefits of stock market</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -42,7 +42,7 @@ class Sliders extends Component {
                         />
 
                         <Carousel.Caption>
-                            <h3>Retirement Plan?</h3>
+                            <h3>Financial Plan?</h3>
                             <p>Start Investing Early. The sooner, The better!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
